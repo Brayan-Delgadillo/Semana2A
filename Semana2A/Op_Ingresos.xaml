@@ -1,0 +1,36 @@
+﻿<Window x:Class="Semana2A.Op_Ingresos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana2A"
+        mc:Ignorable="d"
+        Title="Op_Ingresos" Height="450" Width="800">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBlock Text="Tipo de Documento" FontSize="18"/>
+            <ComboBox Width="170" Margin="0 0 0 5">
+                <ComboBoxItem>RUC</ComboBoxItem>
+                <ComboBoxItem>DNI</ComboBoxItem>
+            </ComboBox>
+            <TextBlock Text="Numero Documento" FontSize="18"/>
+            <TextBox x:Name="txtNroDocumento" Width="170" Margin="0 0 0 5"/>
+            <TextBlock Text="Placa" FontSize="18"/>
+            <TextBox x:Name="txtPlaca" Width="170" Margin="0 0 0 5"/>
+            <TextBlock Text="Turno" FontSize="18"/>
+            <ComboBox Width="170" Margin="0 0 0 5">
+                <ComboBoxItem>Mañana</ComboBoxItem>
+                <ComboBoxItem>Tarde</ComboBoxItem>
+                <ComboBoxItem>Noche</ComboBoxItem>
+            </ComboBox>
+            <TextBlock Text="Nombre Conductor" FontSize="18"/>
+            <TextBox x:Name="txtNomConductor" Width="170" Margin="0 0 0 5"/>
+            <TextBlock Text="Nombre Cliente" FontSize="18"/>
+            <TextBox x:Name="txtNomCliente" Width="170" Margin="0 0 0 5"/>
+            <TextBlock Text="Fecha y Hora" FontSize="18"/>
+            <DatePicker Width="170" Margin="0 0 0 5"/>
+            <TextBlock Text="Peso de Ingreso" FontSize="18"/>
+            <TextBox x:Name="txtPeso" Width="170" Margin="0 0 0 5"/>
+        </StackPanel>
+    </Grid>
+</Window>

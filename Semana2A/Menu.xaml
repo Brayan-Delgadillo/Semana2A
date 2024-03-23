@@ -1,0 +1,16 @@
+﻿<Window x:Class="Semana2A.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana2A"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Click="Operaciones_Click" Width="170" Margin="5">OPERACIONES</Button>
+            <Button Click="Mantenimiento_Click" Width="170" Margin="5">MANTENIMIENTO</Button>
+            <Button Click="Reportes_Click" Width="170" Margin="5">REPORTES</Button>
+        </StackPanel>
+    </Grid>
+</Window>
