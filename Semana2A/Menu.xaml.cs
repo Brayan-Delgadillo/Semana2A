@@ -41,5 +41,11 @@ namespace Semana2A
             Reportes reportes = new Reportes();
             reportes.ShowDialog();
         }
+
+        private void BaseDeDatos_Click(object sender, RoutedEventArgs e)
+        {
+            BaseDeDatos baseDeDatos = new BaseDeDatos();
+            baseDeDatos.ShowDialog();
+        }
     }
 }

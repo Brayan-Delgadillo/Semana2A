@@ -8,6 +8,7 @@
         Title="Menu" Height="450" Width="800">
     <Grid>
         <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Button Click="BaseDeDatos_Click" Width="170" Margin="5">BASE DE DATOS</Button>
             <Button Click="Operaciones_Click" Width="170" Margin="5">OPERACIONES</Button>
             <Button Click="Mantenimiento_Click" Width="170" Margin="5">MANTENIMIENTO</Button>
             <Button Click="Reportes_Click" Width="170" Margin="5">REPORTES</Button>
