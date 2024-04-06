@@ -47,5 +47,11 @@ namespace Semana2A
             BaseDeDatos baseDeDatos = new BaseDeDatos();
             baseDeDatos.ShowDialog();
         }
+
+        private void Procedimientos_Click(object sender, RoutedEventArgs e)
+        {
+            Procedimientos procedimientos = new Procedimientos();
+            procedimientos.ShowDialog();
+        }
     }
 }

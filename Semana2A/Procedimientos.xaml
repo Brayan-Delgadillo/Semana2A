@@ -1,0 +1,21 @@
+﻿<Window x:Class="Semana2A.Procedimientos"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Semana2A"
+        mc:Ignorable="d"
+        Title="Procedimientos" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <Button Click="productos_Click" Margin="5" Width="130" Height="20">LISTAR PRODUCTOS</Button>
+                <Button Click="categorias_Click" Margin="5" Width="130" Height="20">LISTAR CATEGORIAS</Button>
+                <Button Click="proveedores_Click" Margin="5" Width="130" Height="20">LISTAR PROVEEDORES</Button>
+            </StackPanel>
+            <DataGrid x:Name="brayanTable">
+
+            </DataGrid>
+        </StackPanel>
+    </Grid>
+</Window>
