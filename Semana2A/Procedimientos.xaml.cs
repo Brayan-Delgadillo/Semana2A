@@ -29,8 +29,8 @@ namespace Semana2A
         private void productos_Click(object sender, RoutedEventArgs e)
         {
             string server = "LAB1504-14\\SQLEXPRESS";
-            string database = "NeptunoDB";
-            string user = "brayandelgadillo";
+            string database = "neptunoDB";
+            string user = "brayan";
             string password = "123456";
             string connectionString = $"Data Source={server};Initial Catalog={database};User ID={user};Password={password};";
 
@@ -65,8 +65,8 @@ namespace Semana2A
         private void categorias_Click(object sender, RoutedEventArgs e)
         {
             string server = "LAB1504-14\\SQLEXPRESS";
-            string database = "NeptunoDB";
-            string user = "brayandelgadillo";
+            string database = "neptunoDB";
+            string user = "brayan";
             string password = "123456";
             string connectionString = $"Data Source={server};Initial Catalog={database};User ID={user};Password={password};";
 
@@ -100,8 +100,8 @@ namespace Semana2A
         private void proveedores_Click(object sender, RoutedEventArgs e)
         {
             string server = "LAB1504-14\\SQLEXPRESS";
-            string database = "NeptunoDB";
-            string user = "brayandelgadillo";
+            string database = "neptunoDB";
+            string user = "brayan";
             string password = "123456";
             string connectionString = $"Data Source={server};Initial Catalog={database};User ID={user};Password={password};";
 

@@ -13,6 +13,7 @@
             <Button Click="Mantenimiento_Click" Width="200" Margin="5">MANTENIMIENTO</Button>
             <Button Click="Reportes_Click" Width="200" Margin="5">REPORTES</Button>
             <Button Click="Procedimientos_Click" Width="200" Margin="5">PROCEDIMIENTOS ALMACENADOS</Button>
+            <Button Click="Clientes_Click" Width="200" Margin="5">CLIENTES PROC</Button>
         </StackPanel>
     </Grid>
 </Window>

@@ -53,5 +53,11 @@ namespace Semana2A
             Procedimientos procedimientos = new Procedimientos();
             procedimientos.ShowDialog();
         }
+
+        private void Clientes_Click(object sender, RoutedEventArgs e)
+        {
+            Clientes clientes = new Clientes();
+            clientes.ShowDialog();
+        }
     }
 }
