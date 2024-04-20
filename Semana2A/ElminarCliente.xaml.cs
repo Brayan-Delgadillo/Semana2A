@@ -27,9 +27,9 @@ namespace Semana2A
 
         private void Eliminar_Click(object sender, RoutedEventArgs e)
         {
-            string server = "LAB1504-14\\SQLEXPRESS";
+            string server = "LAB1504-15\\SQLEXPRESS";
             string database = "neptunoDB";
-            string user = "brayan";
+            string user = "brayandelgadillo";
             string password = "123456";
             string connectionString = $"Data Source={server};Initial Catalog={database};User ID={user};Password={password};";
 

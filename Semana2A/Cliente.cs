@@ -14,10 +14,11 @@ namespace Semana2A
         public string cargoContacto { get; set; }
         public string direccion {  get; set; }
         public string telefono {  get; set; }
+        public bool activo { get; set; }
         
         public Cliente (string idCliente, string nombreCompañia,
             string nombreContacto, string cargoContacto, string direccion, 
-            string telefono)
+            string telefono, bool activo)
         {
             this.idCliente = idCliente;
             this.nombreCompañia = nombreCompañia;
@@ -25,6 +26,7 @@ namespace Semana2A
             this.cargoContacto = cargoContacto;
             this.direccion = direccion;
             this.telefono = telefono;
+            this.activo = activo;
         }
     }
 }

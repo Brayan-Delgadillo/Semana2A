@@ -11,6 +11,9 @@
             <RowDefinition Height="30"/>
             <RowDefinition Height="30"/>
             <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="Auto"/>
@@ -20,9 +23,21 @@
         <Label Grid.Row="0" Grid.Column="0" Content="ID Cliente:"/>
         <TextBox Grid.Row="0" Grid.Column="1" x:Name="txtIDCliente"/>
 
-        <Label Grid.Row="1" Grid.Column="0" Content="Nuevo Telefono:"/>
-        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtTelefono"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="Nombre Compañia:"/>
+        <TextBox Grid.Row="1" Grid.Column="1" x:Name="txtNombreCompania"/>
 
-        <Button Grid.Row="2" Content="Guardar" Click="Modificar_Click" Grid.ColumnSpan="2"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Nombre Contacto:"/>
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="txtNombreContacto"/>
+
+        <Label Grid.Row="3" Grid.Column="0" Content="Cargo Contacto:"/>
+        <TextBox Grid.Row="3" Grid.Column="1" x:Name="txtCargoContacto"/>
+
+        <Label Grid.Row="4" Grid.Column="0" Content="Dirección:"/>
+        <TextBox Grid.Row="4" Grid.Column="1" x:Name="txtDireccion"/>
+
+        <Label Grid.Row="5" Grid.Column="0" Content="Nuevo Teléfono:"/>
+        <TextBox Grid.Row="5" Grid.Column="1" x:Name="txtTelefono"/>
+
+        <Button Grid.Row="5" Content="Guardar" Click="Modificar_Click" Grid.ColumnSpan="2" Margin="0,35,0,-35"/>
     </Grid>
 </Window>

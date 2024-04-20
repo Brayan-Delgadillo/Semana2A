@@ -27,9 +27,9 @@ namespace Semana2A
 
         private void Modificar_Click(object sender, RoutedEventArgs e)
         {
-            string server = "LAB1504-14\\SQLEXPRESS";
+            string server = "LAB1504-15\\SQLEXPRESS";
             string database = "neptunoDB";
-            string user = "brayan";
+            string user = "brayandelgadillo";
             string password = "123456";
             string connectionString = $"Data Source={server};Initial Catalog={database};User ID={user};Password={password};";
 
@@ -43,6 +43,10 @@ namespace Semana2A
                     cmd.CommandType = System.Data.CommandType.StoredProcedure;
 
                     cmd.Parameters.AddWithValue("@idCliente", txtIDCliente.Text);
+                    cmd.Parameters.AddWithValue("@NuevoNombreCompañia", txtNombreCompania.Text);
+                    cmd.Parameters.AddWithValue("@NuevoNombreContacto", txtNombreContacto.Text);
+                    cmd.Parameters.AddWithValue("@NuevoCargoContacto", txtCargoContacto.Text);
+                    cmd.Parameters.AddWithValue("@NuevoDireccion", txtDireccion.Text);
                     cmd.Parameters.AddWithValue("@NuevoTelefono", txtTelefono.Text);
                     // Añade más parámetros para los demás campos
 

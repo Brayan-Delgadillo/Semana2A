@@ -28,9 +28,9 @@ namespace Semana2A
 
         private void clientes_Click(object sender, RoutedEventArgs e)
         {
-            string server = "LAB1504-14\\SQLEXPRESS";
+            string server = "LAB1504-15\\SQLEXPRESS";
             string database = "neptunoDB";
-            string user = "brayan";
+            string user = "brayandelgadillo";
             string password = "123456";
             string connectionString = $"Data Source={server};Initial Catalog={database};User ID={user};Password={password};";
 
@@ -51,8 +51,9 @@ namespace Semana2A
                     string cargoContacto = reader.GetString("CargoContacto");
                     string direccion = reader.GetString("Direccion");
                     string telefono = reader.GetString("Telefono");
+                    bool activo = reader.GetBoolean("Activo");
 
-                    clientes.Add(new Cliente(idCliente, nombreCompañia, nombreContacto, cargoContacto, direccion, telefono));
+                    clientes.Add(new Cliente(idCliente, nombreCompañia, nombreContacto, cargoContacto, direccion, telefono, activo));
                 }
                 connection.Close();
                 brayanTable.ItemsSource = clientes;
